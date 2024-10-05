@@ -1,2 +1,3 @@
-clean the window
-make a diner
+check all my apps
+push apps to Github
+make a portfolio

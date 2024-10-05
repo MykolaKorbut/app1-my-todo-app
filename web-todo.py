@@ -8,9 +8,12 @@ def add_todo():
     new_todo = st.session_state["new_todo"] + "\n"
     todos.append(new_todo)
     functions.write_todos(todos)
+    st.session_state.new_todo = ""
 
+# future function
 def edit_todo():
     pass
+
 
 st.title("My Todo App")
 st.subheader("This is my todo app.")
